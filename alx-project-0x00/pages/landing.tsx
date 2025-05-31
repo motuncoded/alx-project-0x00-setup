@@ -1,6 +1,7 @@
 import Card from "@/components/Card";
 import Button  from "@/components/Button";
 
+// pages/landing.tsx doesn't contain: ["import Button from"]
 
 const Landing: React.FC = () => {
   return (
