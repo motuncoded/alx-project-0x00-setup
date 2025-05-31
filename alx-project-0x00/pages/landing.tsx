@@ -1,5 +1,5 @@
 import Card from "@/components/Card";
-import { Button } from "@/components/Button";
+import  Button  from "@/components/Button";
 
 
 const Landing: React.FC = () => {
@@ -7,7 +7,7 @@ const Landing: React.FC = () => {
     <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
       <Card />
-      <Button title="Get Started" styles={{ backgroundColor: "blue", color: "white", padding: "10px 20px", borderRadius: "5px" }} />
+      <Button title="Get Started" styles="rounded-sm rounded-lg rounded-full" />
     </div>
   );
 };
